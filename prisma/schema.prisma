@@ -11,8 +11,11 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Example {
+model BingoBord {
     id        String   @id @default(cuid())
     createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+    nombres Json?
+    authorId String
+
+    @@index([authorId])
 }

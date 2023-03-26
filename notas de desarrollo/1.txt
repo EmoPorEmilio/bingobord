@@ -1,0 +1,11 @@
+-generar tu bingo input a input
+-historial de bingos
+-aciertos hasta ahora
+-"scoreBORD"
+
+es importante que no se repitan nombres random, entonces hagamos esto:
+
+hay un listado grande de nombres que podés elegir, y podés buscar nombres con un input de texto
+el último del listado es el input tal cual lo escribiste, y hay un botón de "Quiero agregarlo a la lista"
+
+una vez agregado, queda agregado para siempre
